@@ -1,0 +1,105 @@
+.section-team{
+    padding-bottom: 94px;
+    padding-top: 94px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #F5F4FA;
+  }
+  .section-team__caption{
+    margin-bottom: 50px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+    }
+  
+  .section-team__list{
+  display: flex;
+  justify-content: space-between;
+  }
+  
+  
+  .section-team__subtitle{
+  border: var(--white-color);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+  background: var(--white-color);
+  }
+   
+  .section-team__picture{
+  margin-bottom: 30px;
+  }
+  
+  .section-team__name{
+  margin-bottom: 10px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+  }
+  
+  .section-team__job{
+  margin-bottom: 30px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
+  }
+  
+  .box-icon{
+    display:flex;
+    width: 206px;
+    height: 44px;
+    list-style: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    justify-content: space-between;
+    
+    /* outline: 1px solid tomato; */
+  }
+  .button{
+    border: none;
+    width: 44px;
+    height: 44px;
+    padding: 12px;
+    background-color:var(--white-color);
+    border-radius: 120px;
+    cursor: pointer;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  .button:hover,
+  .button:focus{
+  background-color: var(--accent-color);
+  }
+  
+  .icon-button{
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  fill:var(--box-button);
+  
+  transition:fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  .icon-button:hover,
+  .icon-button:focus{
+  fill: var(--white-color);
+  }
+  
+  .button:hover .icon-button,
+  .button:focus .icon-button{
+  fill: var(--white-color);
+  }
+  
