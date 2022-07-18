@@ -6,300 +6,276 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WebStudio</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/main.min.css">
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">  
 </head>
 <body>
-    <header class="page-header">
-        <div class="conteiner conteiner-nav">
+<header class="page-header">
+    <div class="conteiner conteiner-nav">
         <nav class="conteiner-nav">   
-        <a href="index.html" class="logo"><span class="web">Web</span>Studio</a>
-        <ul class="site-nav list">
+            <a href="index.html" class="logo"><span class="web">Web</span>Studio</a>
+                <ul class="site-nav list">
+                    <li class="item">
+                        <a class="link current"  href="index.html">Студия</a>
+                    </li>
+                    <li class="item">
+                        <a class="link" href="portfolio.html">Портфолио</a>
+                    </li>
+                    <li class="item">
+                        <a class="link" href="#">Контакты</a>
+                    </li>
+                </ul>
+        </nav>
+    
+        <ul class="list-contacts list">
             <li class="item">
-                <a class="link"  href="index.html">Студия</a>
+                <a class="contact" href="mailto:nfo@devstudio.com">
+                    <svg class="icon-mail">
+                        <use href="./img/SVG/icons.svg#envelope"></use>
+                    </svg> 
+                    nfo@devstudio.com
+                </a>
             </li>
             <li class="item">
-                <a class="link current" href="portfolio.html">Портфолио</a>
-            </li>
-            <li class="item">
-                <a class="link" href="#">Контакты</a>
+                <a class="contact" href="tel:+380961111111">
+                    <svg class="icon-tell">
+                        <use href="./img/SVG/icons.svg#smartphone"></use>
+                    </svg> 
+                    +38 096 111 11 11
+                </a>
             </li>
         </ul>
-    </nav>
-    <ul class="list-contacts list">
-        <li class="item">
-            <a class="contact" href="mailto:nfo@devstudio.com">
-                <svg class="icon-mail">
-                    <use href="./img/SVG/icons.svg#envelope"></use>
-                    </svg> 
-                nfo@devstudio.com</a>
-        </li>
-        <li class="item">
-            <a class="contact" href="tel:+380961111111">
-                <svg class="icon-tell">
-                    <use href="./img/SVG/icons.svg#smartphone"></use>
-                    </svg> 
-                +38 096 111 11 11</a>
-        </li>
-    </ul>
     </div>
-    </header>
-    <main>
+</header>
 
-        <section class="examples">
-            <div class="conteiner">
+<main>
+    <section class="examples">
+        <div class="conteiner">
             <ul class="list button-conteiner">
-            <li class="button-item"><button class="button-bar" type="button">Все</button></li>
-            <li class="button-item"><button class="button-bar" type="button">Веб-сайты</button></li>
-            <li class="button-item"><button class="button-bar" type="button">Приложения</button></li>
-            <li class="button-item"><button class="button-bar" type="button">Дизайн</button></li>
-            <li class="button-item"><button class="button-bar" type="button">Маркетинг</button></li>
-         </ul>
+                <li class="button-item"><button class="button-bar" type="button">Все</button></li>
+                <li class="button-item"><button class="button-bar" type="button">Веб-сайты</button></li>
+                <li class="button-item"><button class="button-bar" type="button">Приложения</button></li>
+                <li class="button-item"><button class="button-bar" type="button">Дизайн</button></li>
+                <li class="button-item"><button class="button-bar" type="button">Маркетинг</button></li>
+            </ul>
      
+            <ul class="list examples-conteiner">
+                <li class="examples-border">
+                    <div class="examples-border-img">
+                        <img src="./img/Технокряк.jpg" class="examples-img" alt="Веб-сайт" width="370">
+                            <div class="examples-overlay">
+                                <div class="examples-text-border">
+                                    <p class="examples-paragraph"> Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице</p>
+                                </div>
+                            </div>
+                    </div>  
 
-        
-        <ul class="list examples-conteiner">
-            <li class="examples-border">
-                <div class="examples-border-img">
-
-                <img src="./img/Технокряк.jpg" class="examples-img" alt="Веб-сайт" width="370">
-
-                   <div class="examples-overlay">
-
-                    <div class="examples-text-border">
-                    <p class="examples-paragraph"> Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице</p>
-
+                    <div class="examples-table">   
+                        <h3 class="examples-title">Технокряк</h3>
+                        <p class="examples-text">Веб-сайт</p>
                     </div>
-                </div>
-
-               </div>  
-               <div class="examples-table">   
-                <h3 class="examples-title">Технокряк</h3>
-                <p class="examples-text">Веб-сайт</p>
-            
-               </div>
-            </li>
-            <li class="examples-border">
-
-                <div class="examples-border-img">
-                <img src="./img/Постер.jpg" class="examples-img" alt="Дизайн" width="370">
-                <div class="examples-overlay">
-
-                <div class="examples-text-border">
-                    <p class="examples-paragraph"> Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице</p>
-                    
-                </div>
-                </div>
-                </div>  
-
-                <div class="examples-table">
-                <h3 class="examples-title">Постер New Orlean vs Golden Star</h3>
-                <p class="examples-text">Дизайн</p>
-                </div>
-            </li>
-            <li class="examples-border">
-
-                <div class="examples-border-img">
-                <img src="./img/Ресторан.jpg" class="examples-img" alt="Приложение" width="370">
-                <div class="examples-overlay">
-                
-                <div class="examples-text-border">
-                    <p class="examples-paragraph"> Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице</p>
-                    </div>
-                </div>
-                </div>
-                <div class="examples-table">
-                <h3 class="examples-title">Ресторан Seafood</h3>
-                <p class="examples-text">Приложение</p>
-               </div>
-            </li>
-            <li class="examples-border">
-                <div class="examples-border-img">
-                <img src="./img/prime.jpg" class="examples-img" alt="Маркетинг" width="370">
-
-                <div class="examples-overlay">
-
-                <div class="examples-text-border">
-                    <p class="examples-paragraph"> Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице</p>
-                    </div>
-                </div>
-                </div>
-                <div class="examples-table">
-                <h3 class="examples-title">Проект Prime</h3>
-                <p class="examples-text">Маркетинг</p>
-            </div>
-            </li>
-            <li class="examples-border">
-                <div class="examples-border-img">
-                <img src="./img/boxes.jpg" class="examples-img" alt="Приложение" width="370">
-                <div class="examples-overlay">
-                <div class="examples-text-border">
-                    <p class="examples-paragraph"> Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице</p>
-                    </div>
-                </div>
-                </div>
-                <div class="examples-table">
-                <h3 class="examples-title">Проект Boxes</h3>
-                <p class="examples-text">Приложение</p>
-            </div>
-            </li>
-            <li class="examples-border">
-                <div class="examples-border-img">
-                <img src="./img/Borders.jpg" class="examples-img" alt="Веб-сайт" width="370">
-                <div class="examples-overlay">
-
-                
-                <div class="examples-text-border">
-                    <p class="examples-paragraph"> Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице</p>
-                    </div>
-                </div>
-                </div>
-                <div class="examples-table">
-                <h3 class="examples-title">Inspiration has no Borders</h3>
-                <p class="examples-text">Веб-сайт</p>
-            </div>
-            </li>
-            <li class="examples-border">
-                <div class="examples-border-img">
-                <img src="./img/Издание.jpg" class="examples-img" alt="Дизайн" width="370">
-
-                <div class="examples-overlay">
-
-                <div class="examples-text-border">
-                    <p class="examples-paragraph"> Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице</p>
-                    </div>
-                </div>
-                </div>
-                <div class="examples-table">
-                <h3 class="examples-title">Издание Limited Edition</h3>
-                <p class="examples-text">Дизайн</p>
-            </div>
-            </li>
-            <li class="examples-border">
-                <div class="examples-border-img">
-                <img src="./img/Проект.jpg" class="examples-img" alt="Маркетинг" width="370">
-
-                <div class="examples-overlay">
-
-                <div class="examples-text-border">
-                    <p class="examples-paragraph"> Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице</p>
-                    </div>
-                </div>
-                </div>
-                <div class="examples-table">
-                <h3 class="examples-title">Проект LAB</h3>
-                <p class="examples-text">Маркетинг</p>
-            </div>
-            </li>
-            <li class="examples-border">
-                <div class="examples-border-img">
-                <img src="./img/Business.jpg" class="examples-img" alt="Приложение" width="370">
-
-                <div class="examples-overlay">
-
-
-                <div class="examples-text-border">
-                    <p class="examples-paragraph"> Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице</p>
-                    </div>
-                </div>
-                </div>
-                <div class="examples-table">
-                <h3 class="examples-title">Growing Business</h3>
-                <p class="examples-text">Приложение</p>
-            </div>
-            </li>
-        </ul>
-    </div>
-    </section>
-    </main>
-    <<footer class="footer">
-        <div class="conteiner footer-conteiner">
-            <div class="logo-conteiner">
-            <div class="logo-web">
-             <span class="web-footer">Web</span> <span class="logo-footer">Studio</span>
-            </div>
-           <address> 
-            <p class="address">г. Киев, пр-т Леси Украинки, 26</p>
-            <ul class="items-contacts list">
-                <li class="item">
-                    <a class="contact-footer" href="mailto:info@example.com">info@example.com</a>
                 </li>
-                <li class="item">
-                    <a class="contact-footer" href="tel:+380991111111">+38 099 111 11 11</a>
+           
+                <li class="examples-border">
+                    <div class="examples-border-img">
+                        <img src="./img/Постер.jpg" class="examples-img" alt="Дизайн" width="370">
+                            <div class="examples-overlay">
+                                <div class="examples-text-border">
+                                    <p class="examples-paragraph"> Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице</p>   
+                                </div>
+                            </div>
+                    </div>  
+
+                    <div class="examples-table">
+                        <h3 class="examples-title">Постер New Orlean vs Golden Star</h3>
+                        <p class="examples-text">Дизайн</p>
+                    </div>
+                </li>
+
+                <li class="examples-border">
+                    <div class="examples-border-img">
+                        <img src="./img/Ресторан.jpg" class="examples-img" alt="Приложение" width="370">
+                            <div class="examples-overlay">
+                                <div class="examples-text-border">
+                                    <p class="examples-paragraph"> Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице</p>
+                                </div>
+                            </div>
+                    </div>
+                    <div class="examples-table">
+                        <h3 class="examples-title">Ресторан Seafood</h3>
+                        <p class="examples-text">Приложение</p>
+                    </div>
+                </li>
+
+                <li class="examples-border">
+                    <div class="examples-border-img">
+                        <img src="./img/prime.jpg" class="examples-img" alt="Маркетинг" width="370">
+                            <div class="examples-overlay">
+                                <div class="examples-text-border">
+                                    <p class="examples-paragraph"> Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице</p>
+                                </div>
+                            </div>
+                    </div>
+                    <div class="examples-table">
+                        <h3 class="examples-title">Проект Prime</h3>
+                        <p class="examples-text">Маркетинг</p>
+                    </div>
+                </li>
+
+                <li class="examples-border">
+                    <div class="examples-border-img">
+                        <img src="./img/boxes.jpg" class="examples-img" alt="Приложение" width="370">
+                            <div class="examples-overlay">
+                                <div class="examples-text-border">
+                                    <p class="examples-paragraph"> Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице</p>
+                                </div>
+                            </div>
+                    </div>
+                    <div class="examples-table">
+                        <h3 class="examples-title">Проект Boxes</h3>
+                        <p class="examples-text">Приложение</p>
+                    </div>
+                </li>
+
+                <li class="examples-border">
+                    <div class="examples-border-img">
+                        <img src="./img/Borders.jpg" class="examples-img" alt="Веб-сайт" width="370">
+                            <div class="examples-overlay">
+                                <div class="examples-text-border">
+                                <p class="examples-paragraph"> Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице</p>
+                                </div>
+                            </div>
+                    </div>
+                    <div class="examples-table">
+                        <h3 class="examples-title">Inspiration has no Borders</h3>
+                        <p class="examples-text">Веб-сайт</p>
+                    </div>
+                </li>
+
+                <li class="examples-border">
+                    <div class="examples-border-img">
+                        <img src="./img/Издание.jpg" class="examples-img" alt="Дизайн" width="370">
+                            <div class="examples-overlay">
+                                <div class="examples-text-border">
+                                    <p class="examples-paragraph"> Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице</p>
+                                </div>
+                            </div>
+                    </div>
+                    <div class="examples-table">
+                        <h3 class="examples-title">Издание Limited Edition</h3>
+                        <p class="examples-text">Дизайн</p>
+                    </div>
+                </li>
+
+                <li class="examples-border">
+                    <div class="examples-border-img">
+                        <img src="./img/Проект.jpg" class="examples-img" alt="Маркетинг" width="370">
+                            <div class="examples-overlay">
+                                <div class="examples-text-border">
+                                    <p class="examples-paragraph"> Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице</p>
+                                </div>
+                            </div>
+                    </div>
+                    <div class="examples-table">
+                        <h3 class="examples-title">Проект LAB</h3>
+                        <p class="examples-text">Маркетинг</p>
+                    </div>
+                </li>
+
+                <li class="examples-border">
+                    <div class="examples-border-img">
+                        <img src="./img/Business.jpg" class="examples-img" alt="Приложение" width="370">
+                            <div class="examples-overlay">
+                                <div class="examples-text-border">
+                                    <p class="examples-paragraph"> Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице</p>
+                                </div>
+                            </div>
+                    </div>
+                    <div class="examples-table">
+                        <h3 class="examples-title">Growing Business</h3>
+                        <p class="examples-text">Приложение</p>
+                   </div>
                 </li>
             </ul>
-        </address>
-         </div>
-         
+        </div>
+    </section>
+</main>
+
+<footer class="footer">
+    <div class="conteiner footer-conteiner">
+        <div class="logo-conteiner">
+            <div class="logo-web">
+                <span class="web-footer">Web</span> <span class="logo-footer">Studio</span>
+            </div>
+            <address> 
+                <p class="address">г. Киев, пр-т Леси Украинки, 26</p>
+                    <ul class="items-contacts list">
+                        <li class="item">
+                            <a class="contact-footer" href="mailto:info@example.com">info@example.com</a>
+                        </li>
+                        <li class="item">
+                            <a class="contact-footer" href="tel:+380991111111">+38 099 111 11 11</a>
+                        </li>
+                    </ul>
+            </address>
+        </div>
+     
         <div class="footer-social-networks">
-        <div class="social-networks">
-        <h3 class="title">присоединяйтесь</h3>
-        
-        <ul class="footer-icon list">
-    
-        <li>
-            <a href="#"  class="button-social-networks">
-                <svg class="icon-button-networks">
-                <use href="./img/SVG/icons.svg#instagram"></use>
-                </svg>  
-            </a>
-        </li>
-        <li>
-            <a href="#"  class="button-social-networks">
-            <svg class="icon-button-networks">
-            <use href="./img/SVG/icons.svg#twitter"></use>
-            </svg>  
-        </a>
-        </li>
-        <li>
-            <a href="#"  class="button-social-networks">
-            <svg class="icon-button-networks">
-            <use href="./img/SVG/icons.svg#facebook"></use>
-            </svg>  
-        </a>
-        </li>
-        <li>
-            <a href="#"  class="button-social-networks">
-            <svg class="icon-button-networks">
-            <use href="./img/SVG/icons.svg#linkedin"></use>
-            </svg>  
-        </a>
-        </li>
-        </ul>
+            <div class="social-networks">
+                <h3 class="title">присоединяйтесь</h3>
+                    <ul class="footer-icon list">
+                        <li>
+                            <a href="#"  class="button-social-networks">
+                                <svg class="icon-button-networks">
+                                    <use href="./img/SVG/icons.svg#instagram"></use>
+                                </svg>  
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#"  class="button-social-networks">
+                                <svg class="icon-button-networks">
+                                    <use href="./img/SVG/icons.svg#twitter"></use>
+                                </svg>  
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#"  class="button-social-networks">
+                                <svg class="icon-button-networks">
+                                    <use href="./img/SVG/icons.svg#facebook"></use>
+                                </svg>  
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#"  class="button-social-networks">
+                                <svg class="icon-button-networks">
+                                    <use href="./img/SVG/icons.svg#linkedin"></use>
+                                </svg>  
+                            </a>
+                        </li>
+                    </ul>
+            </div>
         </div>
-    </div>
-    
-    <div class="footer-subscribe">
-        <h3 class="title">Подпишитесь на рассылку</h3>
-    
-        <form>
-        
-                <input type="email" name="email" id="email" placeholder="E-mail" class="footer-email">
-            
-            <button type="submit" class="footer-button"><span class="footer-subscribe-email">Подписаться</span>
-            <svg class="footer-subscribe-icon">
-                <use href="./img/SVG/icons.svg#iconsend"></use>
-            </svg>
-            </button>
-        </form>
-    
-    </div>
-    
-    </div>
-    </footer>
-    
-    <div class="backdrop is-hidden" data-modal>
-        <div class="modal">
-            <button class="close" data-modal-close>
-                <svg class="close-img">
-                    <use href="./img/SVG/icons.svg#close"></use>
-                </svg>
-            </button>
+
+        <div class="footer-subscribe">
+            <h3 class="title">Подпишитесь на рассылку</h3>
+                <form>
+                    <input type="email" name="email" id="email" placeholder="E-mail" class="footer-subscribe__email">
+                    <button type="submit" class="footer-subscribe__button">
+                        <span class="footer-subscribe__text">Подписаться</span>
+                            <svg class="footer-subscribe__icon">
+                                <use href="./img/SVG/icons.svg#iconsend"></use>
+                          </svg>
+                    </button>
+                </form>
         </div>
+
     </div>
+</footer>
+    
+    
 
 </body>
 </html>
