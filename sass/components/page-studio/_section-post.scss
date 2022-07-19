@@ -19,14 +19,12 @@
     height: 120px;
     background-repeat: no-repeat;
     background-position: center;
-    background-color: var(--button-color);
+    background-color: $button-color;
     border-radius: 4px;
     margin-bottom: 30px;
-  
     display: flex;
     justify-content: center;
     align-items: center;
-  
   }
   
   .section-post__icon{
@@ -42,7 +40,7 @@
   line-height: 1.2;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--primary-text-color);
+  color: $primary-text-color;
   }
   
   .section-post__text{
@@ -51,7 +49,7 @@
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
-  color: var(--secondary-text-color);
+  color: $secondary-text-color;
   }
   
   
