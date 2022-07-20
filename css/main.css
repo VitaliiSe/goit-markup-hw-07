@@ -64,9 +64,6 @@ body {
   text-decoration: none;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.logo:hover, .logo:focus {
-  color: #2196F3;
-}
 
 .examples-conteiner, .button-conteiner, .section-clients__list, .section-team__list, .section-post__item, .footer-items, .list-contacts, .site-nav {
   list-style: none;
@@ -84,6 +81,11 @@ body {
 .conteiner-nav {
   display: flex;
   align-items: center;
+}
+
+/* Modifiers logo*/
+.logo--accent:hover, .logo--accent:focus {
+  color: #2196F3;
 }
 
 .site-nav {
@@ -201,23 +203,12 @@ body {
   margin-bottom: 20px;
 }
 
-.box-logo__web {
-  font-family: "Raleway";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.2;
-  letter-spacing: 0.03em;
+/* Modifiers logo*/
+.web--color {
   color: #2196F3;
-  text-decoration: none;
 }
 
-.box-logo__logo {
-  font-style: normal;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.2;
-  letter-spacing: 0.03em;
+.logo--color {
   color: #F5F4FA;
 }
 

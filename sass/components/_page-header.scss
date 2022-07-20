@@ -11,4 +11,10 @@
   align-items: center;
       }
 
-
+/* Modifiers logo*/ 
+.logo--accent{
+  &:hover,
+  &:focus{
+  color:$accent-color;
+}
+}

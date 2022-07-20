@@ -17,27 +17,14 @@
     margin-bottom: 20px;
   }
 
-  .box-logo__web{
-  font-family: 'Raleway';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.2;
-  letter-spacing: 0.03em;
-  color:$accent-color;
-  text-decoration: none;
+  /* Modifiers logo*/ 
+  .web--color {
+    color:$accent-color;
+    
   }
-  
-  .box-logo__logo{
-  font-style: normal;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.2;
-  letter-spacing: 0.03em;
-  color: $button-color;
+  .logo--color{
+    color: $button-color;
   }
-  
-
   
   
   
