@@ -1,6 +1,7 @@
 .site-nav{
     display: flex;
     margin-left: 93px;
+    @extend %list;
     }
     
 .site-nav_link{

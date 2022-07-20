@@ -12,6 +12,7 @@
   .section-post__item{
     width: 370px;
     text-align: left;
+    @extend %list;
   }
   
   .section-post__conteiner{

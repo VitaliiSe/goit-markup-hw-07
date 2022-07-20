@@ -2,6 +2,7 @@
     display:flex;
     align-items: center;
     margin-left: auto;
+    @extend %list;
     }
 
     .list-contacts__item{

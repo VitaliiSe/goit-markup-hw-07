@@ -19,6 +19,7 @@
   .section-team__list{
   display: flex;
   justify-content: space-between;
+  @extend %list;
   }
   
   

@@ -1,6 +1,8 @@
 @import "./utils/variables";
-@import "./components/normalize";
+@import "./utils/normalize";
 @import "./components/conteiner";
+@import "./components/logo";
+@import "./utils/placeholder";
 @import "./components/page-header";
 @import "./components/site-nav";
 @import "./components/list-contacts";
@@ -11,7 +13,7 @@
 @import "./components/page-studio/section-team";
 @import "./components/page-studio/section-clients";
 @import "./components/page-portfolio/portfolio";
-@import "./components/logo";
+@import "./components/page-portfolio/examples-conteiner";
 @import "./components/backdrop";
-@import "./components/icon-box"
+@import "./components/icon-box";
 

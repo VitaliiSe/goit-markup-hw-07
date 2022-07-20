@@ -39,6 +39,7 @@
   .section-clients__list{
     display: flex;
     gap: 30px;
+    @extend %list;
   }
   
   .section-clients__logo{
